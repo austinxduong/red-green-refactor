@@ -1,7 +1,7 @@
 import getName from './hex-to-rgb.js';
 
 describe('getName', () => {
-  it('returns the name prop of an object', () => {
+  it('returns the name property of an object', () => {
     const spot = { name: 'spot', age: 5, weight: '20 lbs' };
     const name = getName(spot);
     expect(name).toBe('spot');

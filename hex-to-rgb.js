@@ -5,5 +5,5 @@
 // getName(character); // returns Aangnpm 
 
 export default (obj) => {
-  return obj['name'];
+  return obj.name;
 };
